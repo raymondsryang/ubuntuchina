@@ -7,4 +7,5 @@ RUN apt-get install -y vim
 RUN apt-get install -y htop
 RUN apt-get install -y docker.io
 RUN apt-get install -y docker-compose
-RUN apt-get install -y iotop
+RUN apt-get install -y iftop
+RUN apt-get install -y net-tools
